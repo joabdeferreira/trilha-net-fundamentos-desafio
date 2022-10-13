@@ -55,5 +55,5 @@ while (exibirMenu)
     Console.WriteLine("Pressione uma tecla para continuar");
     Console.ReadLine();
 }
-
+Console.WriteLine("O total arrecadado foi de: R$"+ es.getTotalArrecadado());
 Console.WriteLine("O programa se encerrou");
